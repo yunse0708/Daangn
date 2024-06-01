@@ -2,17 +2,27 @@ import styled from "styled-components";
 
 export const QR_Container = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
+  flex-direction: column;
   padding: 2em;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 `;
 
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 60%;
-  margin-left: 1.5em;
+  width: 100%;
+  margin-top: 1.5em;
+
+  @media screen and (min-width: 768px) {
+    width: 60%;
+    margin-left: 1.5em;
+    margin-top: 0;
+  }
 `;
 
 export const Instructions = styled.div`
@@ -42,27 +52,34 @@ export const QRCodeContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 100%;
+  margin-top: 1.5em;
+
+  @media screen and (min-width: 768px) {
+    width: 40%;
+    margin-top: 0;
+  }
 `;
 
 export const QRCodeImage = styled.img`
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 `;
 
 export const Login_Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 91.7vh;
   background-color: #eaebee;
 `;
 
 export const Login_InContainer = styled.div`
   background-color: white;
-  width: 50%;
-  padding: 2em;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  max-width: 600px;
+  padding: 2em; /* 내부 여백을 3em으로 조정 */
   display: flex;
   flex-direction: column;
   align-items: center;

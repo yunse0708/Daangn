@@ -7,7 +7,7 @@ import Job from "./pages/Job";
 import Car from "./pages/Car";
 import Company from "./pages/Company";
 import House from "./pages/House";
-import Login from "./components/login"
+import Login from "./components/login";
 
 function App() {
   return (

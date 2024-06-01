@@ -1,4 +1,3 @@
-// style.js
 import styled from "styled-components";
 
 export const Banner3_Container = styled.div`
@@ -12,8 +11,9 @@ export const Banner3_Container = styled.div`
 
 export const Banner3_Town = styled.div`
   margin-right: 17.8em;
-  margin-top: 1em;
+  margin-top: 3em;
 `;
+
 export const Banner3_MainTitle = styled.div`
   width: 100%;
   height: 80%;
@@ -26,7 +26,7 @@ export const Banner3_MainTitle = styled.div`
 
 export const Banner3_Title = styled.div`
   font-family: GmarketSansMedium;
-  font-size: 3.2em;
+  font-size: 48px;
   color: #212529;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
@@ -35,6 +35,6 @@ export const Banner3_Title = styled.div`
 export const Banner3_Introduce1 = styled.div`
   color: #7c7c7c;
   font-family: GmarketSansLight;
-  font-size: 1.5em;
+  font-size: 24px;
   margin-bottom: 1em;
 `;

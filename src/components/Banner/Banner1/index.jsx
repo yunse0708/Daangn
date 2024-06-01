@@ -3,7 +3,6 @@ import * as S from "./style";
 import Hi from "../../../assets/Hi.svg";
 import Apple from "../../../assets/apple.svg";
 import Google from "../../../assets/google.svg";
-import Header from "../../../components/Header";
 
 function Banner1() {
   const titleLine1 = "당신 근처의";
@@ -13,7 +12,6 @@ function Banner1() {
 
   return (
     <div>
-      <Header />
       <S.Banner1_Container>
         <S.Banner1_MainTitle>
           <S.Banner1_Title>
@@ -29,7 +27,7 @@ function Banner1() {
           <S.Banner1_ButtonContainer>
             <S.Banner1_Google_Button href="https://play.google.com/store/apps/details?id=com.towneers.www">
               <img src={Google} className="Google" alt="Google" />
-              Groogle Play
+              Google Play
             </S.Banner1_Google_Button>
             <S.Banner1_Apple_Button href="https://apps.apple.com/us/app/karrot-buy-sell-locally/id1018769995">
               <img src={Apple} className="Apple" alt="Apple" />

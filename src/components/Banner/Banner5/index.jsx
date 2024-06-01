@@ -26,7 +26,7 @@ function Banner5() {
             {introduce2}
           </S.Banner5_Introduce1>
           <S.Banner5_ButtonContainer>
-            <Link to="/Job" style={{ textDecoration: "none" }}>
+            <Link to="/Company" style={{ textDecoration: "none" }}>
               <S.Banner5_Company_Button>
                 당근 동네업체 보기
               </S.Banner5_Company_Button>

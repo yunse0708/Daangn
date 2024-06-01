@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Banner_Container = styled.div`
   background-color: #fff1aa;
   width: 100%;
-  height: 37vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +10,6 @@ export const Banner_Container = styled.div`
 
 export const Text = styled.div`
   flex-direction: column;
-  margin-top: 3em;
 `;
 
 export const Title = styled.h1`
@@ -20,7 +18,6 @@ export const Title = styled.h1`
 `;
 
 export const Banner_Trade = styled.div`
-  margin-top: 3.4%;
   left: 11em;
 `;
 
@@ -74,18 +71,15 @@ export const ItemName = styled.div`
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-bottom: -0.5em;
 `;
 
 export const Price = styled.p`
   font-size: 1em;
-  margin-bottom: -0.5em;
 `;
 
 export const Location = styled.p`
   font-size: 0.9em;
   color: #666;
-  margin-bottom: -0.5em;
 `;
 
 export const InterestChat = styled.p`

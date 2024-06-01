@@ -1,4 +1,3 @@
-// style.js
 import styled from "styled-components";
 
 export const Banner2_Container = styled.div`
@@ -13,6 +12,11 @@ export const Banner2_Container = styled.div`
 export const Banner2_Transaction = styled.div`
   margin-left: 20em;
   margin-top: 1em;
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+    margin-top: 2em;
+  }
 `;
 
 export const Banner2_MainTitle = styled.div`
@@ -22,21 +26,33 @@ export const Banner2_MainTitle = styled.div`
   margin-top: 20em;
   color: #fe6f0f;
   font-family: GmarketSansBold;
+
+  @media (max-width: 768px) {
+    margin-top: 10em;
+  }
 `;
 
 export const Banner2_Title = styled.div`
   font-family: GmarketSansMedium;
-  font-size: 3.2em;
+  font-size: 48px;
   color: #212529;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
+
+  @media (max-width: 768px) {
+    font-size: 36px;
+  }
 `;
 
 export const Banner2_Introduce1 = styled.div`
   color: #7c7c7c;
   font-family: GmarketSansLight;
-  font-size: 1.5em;
+  font-size: 24px;
   margin-bottom: 1.5em;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
 `;
 
 export const Banner2_ButtonContainer = styled.div`
@@ -57,6 +73,12 @@ const Button = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) {
+    width: 20vw;
+    height: 8vh;
+    font-size: 14px;
+  }
 `;
 
 export const Banner2_Trade_Button = styled(Button)``;
