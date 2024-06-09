@@ -1,0 +1,43 @@
+@font-face {
+  font-family: GmarketSansBold;
+  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansBold.otf");
+}
+
+@font-face {
+  font-family: GmarketSansMedium;
+  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansMedium.otf");
+}
+
+@font-face {
+  font-family: GmarketSansLight;
+  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansLight.otf");
+}
+
+@font-face {
+  font-family: GmarketSansTTFBold;
+  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansTTFBold.ttf");
+}
+
+@font-face {
+  font-family: GmarketSansTTFLight;
+  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansTTFLight.ttf");
+}
+
+@font-face {
+  font-family: GmarketSansTTFMedium;
+  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansTTFMedium.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
