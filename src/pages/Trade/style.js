@@ -1,10 +1,19 @@
-// src/pages/Trade/styled.js
+// style.js
+
 import styled from "styled-components";
 
-export const HeaderContainer = styled.div`
-  background-color: #fff4cc;
-  padding: 20px;
-  text-align: center;
+export const Banner_Container = styled.div`
+  background-color: #fff1aa;
+  width: 100%;
+  height: 37vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const Text = styled.div`
+  flex-direction: column;
+  margin-top: 3em;
 `;
 
 export const Title = styled.h1`
@@ -12,51 +21,73 @@ export const Title = styled.h1`
   color: #333;
 `;
 
+export const Banner_Trade = styled.div`
+  margin-top: 3.4%;
+  left: 11em;
+`;
+
 export const SubTitle = styled.p`
   font-size: 1.2em;
   color: #666;
+  margin-bottom: 1em;
 `;
 
-export const PopularItemsContainer = styled.div`
-  padding: 20px;
+export const Main_Container = styled.div`
+  margin: 3em;
   text-align: center;
-`;
-
-export const ItemsGrid = styled.div`
-  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 `;
 
-export const Card = styled.div`
-  background-color: #fff;
+export const ItemBox = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 0.2fr);
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 1em;
+`;
+
+export const Items = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1em;
+`;
+
+export const TradeCard = styled.div`
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-  padding: 15px;
-  text-align: center;
-  width: 200px;
+  text-align: start;
+  justify-content: center;
 `;
 
 export const Image = styled.img`
   border-radius: 10px;
-  height: 150px;
-  width: 100%;
+  height: 250px;
+  width: 250px;
+  align-items: center;
+  margin-bottom: 0.5em;
 `;
 
-export const ItemName = styled.h3`
-  font-size: 1.2em;
+export const ItemName = styled.div`
+  font-family: GmarketSansTTFLight;
+  font-size: 1em;
+  width: 100%;
   color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: -0.5em;
 `;
 
 export const Price = styled.p`
   font-size: 1em;
-  color: #007bff;
+  margin-bottom: -0.5em;
 `;
 
 export const Location = styled.p`
   font-size: 0.9em;
   color: #666;
+  margin-bottom: -0.5em;
 `;
 
 export const InterestChat = styled.p`

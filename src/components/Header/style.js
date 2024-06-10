@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Header_Container = styled.div`
   position: fixed;
   width: 100%;
-  height: 4em;
+  height: 7vh;
   background-color: #fff;
   display: flex; /* 세로 중앙 정렬을 위해 추가 */
   justify-content: center;
@@ -34,6 +34,18 @@ export const Styled_Link = styled(Link)`
   &:hover {
     color: lightGray;
   }
+  ${(props) =>
+    props.active &&
+    css`
+      color: #fe6f0f; /* 주황색으로 변경 */
+    `}
+  ${(props) =>
+    props.active &&
+    css`
+      &:hover {
+        color: #fe6f0f; /* 클릭된 페이지에서도 주황색 유지 */
+      }
+    `}
 `;
 
 export const Search_Container = styled.div`

@@ -17,7 +17,7 @@ function Header() {
             </Link>
             {showFullNav && (
               <>
-                <S.Styled_Link to="/Trade">중고거fk</S.Styled_Link>
+                <S.Styled_Link to="/Trade" active={location.pathname === "/Trade"}>중고거래</S.Styled_Link>
                 <S.Styled_Link to="/Compnay">동네업체</S.Styled_Link>
                 <S.Styled_Link to="/Job">알바</S.Styled_Link>
                 <S.Styled_Link to="/House">부동산</S.Styled_Link>
