@@ -44,7 +44,7 @@ const Trade = () => (
       <h1>중고거래 인기매물</h1>
       <S.ItemBox>
         {data.map((item, index) => (
-          <S.Items>
+          <S.Items key={index}>
             <TradeCard
               key={index}
               image={item.image}
