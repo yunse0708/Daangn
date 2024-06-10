@@ -1,31 +1,31 @@
 @font-face {
   font-family: GmarketSansBold;
-  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansBold.otf");
+  src: url("./fonts/GmarketSansBold.otf");
 }
 
 @font-face {
   font-family: GmarketSansMedium;
-  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansMedium.otf");
+  src: url("./fonts/GmarketSansMedium.otf");
 }
 
 @font-face {
   font-family: GmarketSansLight;
-  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansLight.otf");
+  src: url("./fonts/GmarketSansLight.otf");
 }
 
 @font-face {
   font-family: GmarketSansTTFBold;
-  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansTTFBold.ttf");
+  src: url("./fonts//GmarketSansTTFBold.ttf");
 }
 
 @font-face {
   font-family: GmarketSansTTFLight;
-  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansTTFLight.ttf");
+  src: url("./fonts/GmarketSansTTFLight.ttf");
 }
 
 @font-face {
   font-family: GmarketSansTTFMedium;
-  src: url("/Users/song-yunseo/Documents/Daangn2/daangn/src/fonts/GmarketSansTTFMedium.ttf");
+  src: url("./fonts/GmarketSansTTFMedium.ttf");
 }
 
 body {
