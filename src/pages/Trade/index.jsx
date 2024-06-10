@@ -38,7 +38,7 @@ const TradeCard = ({ image, name, price, location, interest, chat }) => (
 
 const Trade = () => (
   <>
-    <Header />
+    <Header />r
     <Banner />
     <S.Main_Container>
       <h1>중고거래 인기매물</h1>

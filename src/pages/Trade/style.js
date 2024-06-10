@@ -1,5 +1,3 @@
-// style.js
-
 import styled from "styled-components";
 
 export const Banner_Container = styled.div`
