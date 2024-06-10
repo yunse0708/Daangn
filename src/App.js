@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Main from "./pages/index";
 import Trade from "./pages/Trade";
 import Job from "./pages/Job";
+import Login from "./components/login"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/Trade" element={<Trade />} />
         <Route path="/Job" element={<Job />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </div>
   );
