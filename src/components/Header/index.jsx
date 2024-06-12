@@ -50,9 +50,9 @@ function Header() {
                   <S.Search_Label>
                     <S.Header_Search_Input placeholder="물품이나 동네를 검색해보세요" />
                   </S.Search_Label>
-                  <Link to="/login" style={{ textDecoration: "none" }}>
+                  <S.Styled_Link to="/login" style={{ textDecoration: "none" }}>
                     <S.Header_Search_Button>채팅하기</S.Header_Search_Button>
-                  </Link>
+                  </S.Styled_Link>
                 </S.Search_Container>
               </>
             </S.Header_Nav>
