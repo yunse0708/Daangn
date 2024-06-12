@@ -69,6 +69,7 @@ export const Header_Search_Input = styled.input`
   &:focus {
     outline: none;
   }
+  position: relative;
 `;
 
 export const Header_Search_Button = styled.div`
